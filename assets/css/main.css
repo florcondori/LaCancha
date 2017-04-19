@@ -1,1 +1,15 @@
-main
+body{
+	margin: 0;
+	padding: 0;
+}
+.cancha{
+	width: 1000px;
+	height: 600px;
+	background: #4B8A08;
+}
+.border-cancha{
+	border: 2px solid white;
+	background: none;
+	width: 90%;
+	height: 90%;
+}
