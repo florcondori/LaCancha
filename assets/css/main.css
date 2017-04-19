@@ -1,15 +1,37 @@
 body{
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 }
 .cancha{
+	display: inline-block;
+	box-sizing: border-box;
 	width: 1000px;
 	height: 600px;
 	background: #4B8A08;
+	padding: 30px;
 }
 .border-cancha{
+	position: relative;
 	border: 2px solid white;
 	background: none;
-	width: 90%;
-	height: 90%;
+	width: 100%;
+	height: 100%;
+}
+.arco{
+	position: absolute;
+	top:50%;	
+	margin-top: -90px;
+	width: 100px;
+	height: 180px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	
+}
+#arco-derecha{
+	right: 0;
+	border-left: 1px solid white;
+}
+#arco-izquierda{
+	left: 0;
+	border-right: 1px solid white;
 }
