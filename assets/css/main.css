@@ -7,7 +7,7 @@ body{
 	box-sizing: border-box;
 	width: 1000px;
 	height: 600px;
-	background: #4B8A08;
+	background: #81B278;
 	padding: 30px;
 }
 .border-cancha{
@@ -26,11 +26,11 @@ body{
 	border-top: 2px solid white;
 	border-bottom: 2px solid white;	
 }
-#arco-derecha{
+.arco-derecha{
 	right: 0;
 	border-left: 2px solid white;
 }
-#arco-izquierda{
+.arco-izquierda{
 	left: 0;
 	border-right: 2px solid white;
 }
@@ -39,7 +39,7 @@ body{
 	border: 2px solid white;
 	border-radius: 100%;
 }
-#centro{
+.centro{
 	width: 100px;
 	height: 100px;
 	top: 50%;
